@@ -27,7 +27,7 @@ disableXML = true
 
   [params.homeInfoParams]
     Title = "Hi, I'm Alvin 👋"
-    Content = "Solving compute infrastructure problems @ Netflix."
+    Content = "Currently solving compute infrastructure problems @ Netflix."
 
   [[params.socialIcons]]
     name = 'github'
