@@ -34,3 +34,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# hugo
+/public/
+/resources/
+hugo_stats.json
+.hugo_build.lock

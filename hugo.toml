@@ -1,0 +1,46 @@
+baseURL = 'https://alvinbao.com/'
+locale = 'en-us'
+title = 'Alvin Bao'
+theme = 'PaperMod'
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+[pagination]
+pagerSize = 10
+
+[minify]
+disableXML = true
+
+[params]
+  env = 'production'
+  description = "Alvin Bao"
+  defaultTheme = 'auto'
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+
+  [params.homeInfoParams]
+    Title = "Hi, I'm Alvin 👋"
+    Content = "Welcome to my site."
+
+[[menu.main]]
+  identifier = 'posts'
+  name = 'Posts'
+  url = '/posts/'
+  weight = 10
+
+[[menu.main]]
+  identifier = 'tags'
+  name = 'Tags'
+  url = '/tags/'
+  weight = 20
+
+[markup]
+  [markup.highlight]
+    noClasses = false
