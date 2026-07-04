@@ -29,6 +29,14 @@ disableXML = true
     Title = "Hi, I'm Alvin 👋"
     Content = "Welcome to my site."
 
+  [[params.socialIcons]]
+    name = 'github'
+    url = 'https://github.com/baoalvin1'
+
+  [[params.socialIcons]]
+    name = 'linkedin'
+    url = 'https://www.linkedin.com/in/alvinbao/'
+
 [[menu.main]]
   identifier = 'posts'
   name = 'Posts'
